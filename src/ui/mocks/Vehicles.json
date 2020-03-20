@@ -1,0 +1,104 @@
+{
+  "rows": [
+    {
+      "id": "Sample-id-0",
+      "year": "Sample-year-0",
+      "make": "Sample-make-0",
+      "model": "Sample-model-0",
+      "trims": []
+    },
+    {
+      "id": "Sample-id-1",
+      "year": "Sample-year-1",
+      "make": "Sample-make-1",
+      "model": "Sample-model-1",
+      "trims": []
+    },
+    {
+      "id": "Sample-id-2",
+      "year": "Sample-year-2",
+      "make": "Sample-make-2",
+      "model": "Sample-model-2",
+      "trims": []
+    },
+    {
+      "id": "Sample-id-3",
+      "year": "Sample-year-3",
+      "make": "Sample-make-3",
+      "model": "Sample-model-3",
+      "trims": []
+    },
+    {
+      "id": "Sample-id-4",
+      "year": "Sample-year-4",
+      "make": "Sample-make-4",
+      "model": "Sample-model-4",
+      "trims": []
+    },
+    {
+      "id": "Sample-id-5",
+      "year": "Sample-year-5",
+      "make": "Sample-make-5",
+      "model": "Sample-model-5",
+      "trims": []
+    },
+    {
+      "id": "Sample-id-6",
+      "year": "Sample-year-6",
+      "make": "Sample-make-6",
+      "model": "Sample-model-6",
+      "trims": []
+    },
+    {
+      "id": "Sample-id-7",
+      "year": "Sample-year-7",
+      "make": "Sample-make-7",
+      "model": "Sample-model-7",
+      "trims": []
+    },
+    {
+      "id": "Sample-id-8",
+      "year": "Sample-year-8",
+      "make": "Sample-make-8",
+      "model": "Sample-model-8",
+      "trims": []
+    },
+    {
+      "id": "Sample-id-9",
+      "year": "Sample-year-9",
+      "make": "Sample-make-9",
+      "model": "Sample-model-9",
+      "trims": []
+    },
+    {
+      "id": "Sample-id-10",
+      "year": "Sample-year-10",
+      "make": "Sample-make-10",
+      "model": "Sample-model-10",
+      "trims": []
+    },
+    {
+      "id": "Sample-id-11",
+      "year": "Sample-year-11",
+      "make": "Sample-make-11",
+      "model": "Sample-model-11",
+      "trims": []
+    },
+    {
+      "id": "Sample-id-12",
+      "year": "Sample-year-12",
+      "make": "Sample-make-12",
+      "model": "Sample-model-12",
+      "trims": []
+    },
+    {
+      "id": "Sample-id-13",
+      "year": "Sample-year-13",
+      "make": "Sample-make-13",
+      "model": "Sample-model-13",
+      "trims": []
+    }
+  ],
+  "totalRecords": 14,
+  "lastPage": 2
+}

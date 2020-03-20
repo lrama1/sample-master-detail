@@ -1,0 +1,67 @@
+{
+	"name": "sample-master-detail",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+	    "classnames": "^2.2.6",
+		"@testing-library/jest-dom": "^4.2.4",
+        "@testing-library/react": "^9.3.2",
+        "@testing-library/user-event": "^7.1.2",
+        "react": "^16.13.0",
+        "react-dom": "^16.13.0",
+        "react-scripts": "3.4.0",    
+        "react-redux": "^7.1.3",
+        "react-router": "^5.1.2",
+        "react-router-dom": "^5.1.2",
+		"primeicons": "^1.0.0",
+        "primereact": "^3.1.4",
+		"redux": "^4.0.4",
+        "redux-thunk": "^2.3.0"		
+	},
+    "devDependencies": {
+        "body-parser": "^1.18.3",
+        "concurrently": "^4.1.0",
+        "cors": "^2.8.5",
+        "json-query": "^2.2.2",
+        "react-test-renderer": "^16.8.6",
+        "enzyme": "^3.8.0",
+        "enzyme-adapter-react-16": "^1.8.0"
+    },
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test --env=jsdom",
+		"eject": "react-scripts eject",
+		"coverage": "react-scripts test --env=jsdom --coverage",
+		"startMock" : "node ./mocks/server.js",
+        "standalone": "concurrently \"yarn startMock\" \"yarn start\""
+	},
+	"proxy": "http://localhost:8000/sample-master-detail",
+	"eslintConfig":{"extends":"react-app"},
+	"browserslist": {
+        "production": [
+          ">0.2%",
+          "not dead",
+          "not op_mini all"
+        ],
+        "development": [
+          "last 1 chrome version",
+          "last 1 firefox version",
+          "last 1 safari version",
+          "last 1 explorer version"
+        ]
+      },
+    "jest": {
+        "collectCoverageFrom": [
+            "src/actions/*.js",
+            "src/components/*.js",
+            "src/containers/*.js",
+            "src/reducers/*.js"
+        ],
+        "coverageThreshold": {
+            "global": {
+                "lines": 50
+            }
+        }
+    }
+}

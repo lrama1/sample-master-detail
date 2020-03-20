@@ -1,0 +1,7 @@
+CREATE TABLE vehicle (
+id VARCHAR(64) PRIMARY KEY
+,year VARCHAR(64)
+,make VARCHAR(64)
+,model VARCHAR(64)
+);
+
